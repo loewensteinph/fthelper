@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	loggers "github.com/kamontat/fthelper/shared/loggers/v2"
-	"github.com/kamontat/fthelper/shared/xtests"
+	loggers "github.com/loewensteinph/fthelper/shared/loggers/v2"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestNewPrinter(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/loewensteinph/fthelper/shared/utils"
 )
 
 type Data struct {

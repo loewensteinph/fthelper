@@ -4,10 +4,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/commandline/flags"
+	"github.com/loewensteinph/fthelper/shared/commandline/hooks"
+	"github.com/loewensteinph/fthelper/shared/configs"
+	"github.com/loewensteinph/fthelper/shared/maps"
 )
 
 // SupportConfig will load configuration from configs directory

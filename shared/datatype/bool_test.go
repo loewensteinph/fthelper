@@ -3,8 +3,8 @@ package datatype_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/loewensteinph/fthelper/shared/datatype"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestToBool(t *testing.T) {

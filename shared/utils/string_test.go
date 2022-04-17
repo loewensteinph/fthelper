@@ -3,8 +3,8 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/utils"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/loewensteinph/fthelper/shared/utils"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestString(t *testing.T) {

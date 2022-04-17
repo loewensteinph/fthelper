@@ -1,6 +1,6 @@
 package loggers
 
-import "github.com/kamontat/fthelper/shared/utils"
+import "github.com/loewensteinph/fthelper/shared/utils"
 
 var level Level = INFO
 var printer *Printer = NewDefaultPrinter()

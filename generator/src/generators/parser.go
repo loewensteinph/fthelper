@@ -1,9 +1,9 @@
 package generators
 
 import (
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/loewensteinph/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/runners"
 )
 
 func Parse(config maps.Mapper) (*runners.Runners, error) {

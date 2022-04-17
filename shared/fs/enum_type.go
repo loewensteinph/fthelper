@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/loggers"
 )
 
 type Type string

@@ -1,7 +1,7 @@
 package runners
 
 import (
-	"github.com/kamontat/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/loggers"
 )
 
 type Context struct {

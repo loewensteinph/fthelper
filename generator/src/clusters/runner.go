@@ -1,10 +1,10 @@
 package clusters
 
 import (
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/loewensteinph/fthelper/shared/configs"
+	"github.com/loewensteinph/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/runners"
 )
 
 func NewRunnerV2(data, mapper maps.Mapper, executor Executor, setting *Settings) *runners.Runner {

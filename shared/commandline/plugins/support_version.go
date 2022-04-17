@@ -1,9 +1,9 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/commandline/commands"
+	"github.com/loewensteinph/fthelper/shared/commandline/flags"
+	"github.com/loewensteinph/fthelper/shared/maps"
 )
 
 func SupportVersion(p *PluginParameter) error {

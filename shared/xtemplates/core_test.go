@@ -3,9 +3,9 @@ package xtemplates_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/xtemplates"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/loewensteinph/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/xtemplates"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestXtemplate(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/loggers/v2"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/loewensteinph/fthelper/shared/loggers/v2"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestTableError(t *testing.T) {

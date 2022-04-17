@@ -3,11 +3,11 @@ package configs
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/loewensteinph/fthelper/shared/datatype"
+	"github.com/loewensteinph/fthelper/shared/fs"
+	"github.com/loewensteinph/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/utils"
 )
 
 type Builder struct {

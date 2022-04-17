@@ -5,8 +5,8 @@
       "enabled": true,
       "url": "http://localhost:8080",
       "apiver": "v1",
-      "username": "",
-      "password": "",
+      "username": "freqtrader",
+      "password": "L#2678465a35c6b7c9581edfb7a6d0f005e801f70ef0850e9401fefa369764b32",
       "strict-mode": true,
       "query": {
         "logs": {
@@ -15,7 +15,7 @@
       }
     },
     "db": {
-      "enabled": true,
+      "enabled": false,
       "type": "postgres",
       "url": "localhost:5432",
       "name": "freqtrade",

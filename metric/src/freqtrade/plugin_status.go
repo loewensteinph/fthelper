@@ -1,8 +1,8 @@
 package freqtrade
 
 import (
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/shared/datatype"
+	"github.com/loewensteinph/fthelper/metric/v4/src/connection"
+	"github.com/loewensteinph/fthelper/shared/datatype"
 )
 
 const STATUS_CONST = "show_config"

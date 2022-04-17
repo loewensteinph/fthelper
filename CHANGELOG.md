@@ -14,15 +14,15 @@
 ## [v5.0.0-beta.17] - 2021-10-20
 
 ### 3. Bug Fixes
-- **metric:** nil pointer when error is not exist, but we still want to get it ([#40](https://github.com/kamontat/fthelper/issues/40))
+- **metric:** nil pointer when error is not exist, but we still want to get it ([#40](https://github.com/loewensteinph/fthelper/issues/40))
 
 
 <a name="v5.0.0-beta.16"></a>
 ## [v5.0.0-beta.16] - 2021-10-19
 
 ### 3. Bug Fixes
-- **shared:** update several bug in configs and improve code coverage ([#37](https://github.com/kamontat/fthelper/issues/37))
-- **shared:** add more coverage on configs modules ([#34](https://github.com/kamontat/fthelper/issues/34))
+- **shared:** update several bug in configs and improve code coverage ([#37](https://github.com/loewensteinph/fthelper/issues/37))
+- **shared:** add more coverage on configs modules ([#34](https://github.com/loewensteinph/fthelper/issues/34))
 - **shared:** test failed because wrong output string
 
 
@@ -58,7 +58,7 @@
 - **metric:** remove annoy log when user disable warmup
 - **shared:** add more information in aggreegate error message
 - **shared:** improve merger log by reduce duplicate assign value
-- **shared:** mask some of map:merger log to reduce security leak [#26](https://github.com/kamontat/fthelper/issues/26)
+- **shared:** mask some of map:merger log to reduce security leak [#26](https://github.com/loewensteinph/fthelper/issues/26)
 - **shared:** type and mode of fs will be case insensitive
 - **shared:** improve runner to handle disabled in validator function
 - **shared:** remove unused code in runner and make information as data model
@@ -557,7 +557,7 @@
 - **gen:** support new type 'strategy' for create strategy code to output
 
 ### 2. Performance Improvements
-- **deps:** add armv6 and armv7 for backward close [#1](https://github.com/kamontat/fthelper/issues/1)
+- **deps:** add armv6 and armv7 for backward close [#1](https://github.com/loewensteinph/fthelper/issues/1)
 - **metric:** add freqtrade url in info log
 - **shared:** improve fs code and reduce wrapper
 
@@ -673,69 +673,69 @@
 - **init:** start new project
 
 
-[Unreleased]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.17...HEAD
-[v5.0.0-beta.17]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.16...v5.0.0-beta.17
-[v5.0.0-beta.16]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.15...v5.0.0-beta.16
-[v5.0.0-beta.15]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.14...v5.0.0-beta.15
-[v5.0.0-beta.14]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.13...v5.0.0-beta.14
-[v5.0.0-beta.13]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.12...v5.0.0-beta.13
-[v5.0.0-beta.12]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.11...v5.0.0-beta.12
-[v5.0.0-beta.11]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.10...v5.0.0-beta.11
-[v5.0.0-beta.10]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.9...v5.0.0-beta.10
-[v5.0.0-beta.9]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.8...v5.0.0-beta.9
-[v5.0.0-beta.8]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.7...v5.0.0-beta.8
-[v5.0.0-beta.7]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.6...v5.0.0-beta.7
-[v5.0.0-beta.6]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.5...v5.0.0-beta.6
-[v5.0.0-beta.5]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.4...v5.0.0-beta.5
-[v5.0.0-beta.4]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.3...v5.0.0-beta.4
-[v5.0.0-beta.3]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.2...v5.0.0-beta.3
-[v5.0.0-beta.2]: https://github.com/kamontat/fthelper/compare/v5.0.0-beta.1...v5.0.0-beta.2
-[v5.0.0-beta.1]: https://github.com/kamontat/fthelper/compare/v4.5.3...v5.0.0-beta.1
-[v4.5.3]: https://github.com/kamontat/fthelper/compare/v4.5.2...v4.5.3
-[v4.5.2]: https://github.com/kamontat/fthelper/compare/v4.5.1...v4.5.2
-[v4.5.1]: https://github.com/kamontat/fthelper/compare/v4.5.0...v4.5.1
-[v4.5.0]: https://github.com/kamontat/fthelper/compare/v4.5.0-beta.1...v4.5.0
-[v4.5.0-beta.1]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.8...v4.5.0-beta.1
-[v4.5.0-alpha.8]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.7...v4.5.0-alpha.8
-[v4.5.0-alpha.7]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.6...v4.5.0-alpha.7
-[v4.5.0-alpha.6]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.5...v4.5.0-alpha.6
-[v4.5.0-alpha.5]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.4...v4.5.0-alpha.5
-[v4.5.0-alpha.4]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.3...v4.5.0-alpha.4
-[v4.5.0-alpha.3]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.2...v4.5.0-alpha.3
-[v4.5.0-alpha.2]: https://github.com/kamontat/fthelper/compare/v4.5.0-alpha.1...v4.5.0-alpha.2
-[v4.5.0-alpha.1]: https://github.com/kamontat/fthelper/compare/v4.4.4...v4.5.0-alpha.1
-[v4.4.4]: https://github.com/kamontat/fthelper/compare/v4.4.3...v4.4.4
-[v4.4.3]: https://github.com/kamontat/fthelper/compare/v4.4.2...v4.4.3
-[v4.4.2]: https://github.com/kamontat/fthelper/compare/v4.4.1...v4.4.2
-[v4.4.1]: https://github.com/kamontat/fthelper/compare/v4.4.0...v4.4.1
-[v4.4.0]: https://github.com/kamontat/fthelper/compare/v4.3.0...v4.4.0
-[v4.3.0]: https://github.com/kamontat/fthelper/compare/v4.2.0...v4.3.0
-[v4.2.0]: https://github.com/kamontat/fthelper/compare/v4.2.0-beta.1...v4.2.0
-[v4.2.0-beta.1]: https://github.com/kamontat/fthelper/compare/v4.1.1...v4.2.0-beta.1
-[v4.1.1]: https://github.com/kamontat/fthelper/compare/v4.1.0...v4.1.1
-[v4.1.0]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.9...v4.1.0
-[v4.1.0-beta.9]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.8...v4.1.0-beta.9
-[v4.1.0-beta.8]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.7...v4.1.0-beta.8
-[v4.1.0-beta.7]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.6...v4.1.0-beta.7
-[v4.1.0-beta.6]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.5...v4.1.0-beta.6
-[v4.1.0-beta.5]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.4...v4.1.0-beta.5
-[v4.1.0-beta.4]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.3...v4.1.0-beta.4
-[v4.1.0-beta.3]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.2...v4.1.0-beta.3
-[v4.1.0-beta.2]: https://github.com/kamontat/fthelper/compare/v4.1.0-beta.1...v4.1.0-beta.2
-[v4.1.0-beta.1]: https://github.com/kamontat/fthelper/compare/v4.0.0...v4.1.0-beta.1
-[v4.0.0]: https://github.com/kamontat/fthelper/compare/v4.0.0-beta.4...v4.0.0
-[v4.0.0-beta.4]: https://github.com/kamontat/fthelper/compare/v4.0.0-beta.3...v4.0.0-beta.4
-[v4.0.0-beta.3]: https://github.com/kamontat/fthelper/compare/v4.0.0-beta.2...v4.0.0-beta.3
-[v4.0.0-beta.2]: https://github.com/kamontat/fthelper/compare/v4.0.0-beta.1...v4.0.0-beta.2
-[v4.0.0-beta.1]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.12...v4.0.0-beta.1
-[v0.1.0-beta.12]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.11...v0.1.0-beta.12
-[v0.1.0-beta.11]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.10...v0.1.0-beta.11
-[v0.1.0-beta.10]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.9...v0.1.0-beta.10
-[v0.1.0-beta.9]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.8...v0.1.0-beta.9
-[v0.1.0-beta.8]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.7...v0.1.0-beta.8
-[v0.1.0-beta.7]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.6...v0.1.0-beta.7
-[v0.1.0-beta.6]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.5...v0.1.0-beta.6
-[v0.1.0-beta.5]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.4...v0.1.0-beta.5
-[v0.1.0-beta.4]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.3...v0.1.0-beta.4
-[v0.1.0-beta.3]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.2...v0.1.0-beta.3
-[v0.1.0-beta.2]: https://github.com/kamontat/fthelper/compare/v0.1.0-beta.1...v0.1.0-beta.2
+[Unreleased]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.17...HEAD
+[v5.0.0-beta.17]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.16...v5.0.0-beta.17
+[v5.0.0-beta.16]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.15...v5.0.0-beta.16
+[v5.0.0-beta.15]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.14...v5.0.0-beta.15
+[v5.0.0-beta.14]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.13...v5.0.0-beta.14
+[v5.0.0-beta.13]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.12...v5.0.0-beta.13
+[v5.0.0-beta.12]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.11...v5.0.0-beta.12
+[v5.0.0-beta.11]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.10...v5.0.0-beta.11
+[v5.0.0-beta.10]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.9...v5.0.0-beta.10
+[v5.0.0-beta.9]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.8...v5.0.0-beta.9
+[v5.0.0-beta.8]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.7...v5.0.0-beta.8
+[v5.0.0-beta.7]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.6...v5.0.0-beta.7
+[v5.0.0-beta.6]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.5...v5.0.0-beta.6
+[v5.0.0-beta.5]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.4...v5.0.0-beta.5
+[v5.0.0-beta.4]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.3...v5.0.0-beta.4
+[v5.0.0-beta.3]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.2...v5.0.0-beta.3
+[v5.0.0-beta.2]: https://github.com/loewensteinph/fthelper/compare/v5.0.0-beta.1...v5.0.0-beta.2
+[v5.0.0-beta.1]: https://github.com/loewensteinph/fthelper/compare/v4.5.3...v5.0.0-beta.1
+[v4.5.3]: https://github.com/loewensteinph/fthelper/compare/v4.5.2...v4.5.3
+[v4.5.2]: https://github.com/loewensteinph/fthelper/compare/v4.5.1...v4.5.2
+[v4.5.1]: https://github.com/loewensteinph/fthelper/compare/v4.5.0...v4.5.1
+[v4.5.0]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-beta.1...v4.5.0
+[v4.5.0-beta.1]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.8...v4.5.0-beta.1
+[v4.5.0-alpha.8]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.7...v4.5.0-alpha.8
+[v4.5.0-alpha.7]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.6...v4.5.0-alpha.7
+[v4.5.0-alpha.6]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.5...v4.5.0-alpha.6
+[v4.5.0-alpha.5]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.4...v4.5.0-alpha.5
+[v4.5.0-alpha.4]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.3...v4.5.0-alpha.4
+[v4.5.0-alpha.3]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.2...v4.5.0-alpha.3
+[v4.5.0-alpha.2]: https://github.com/loewensteinph/fthelper/compare/v4.5.0-alpha.1...v4.5.0-alpha.2
+[v4.5.0-alpha.1]: https://github.com/loewensteinph/fthelper/compare/v4.4.4...v4.5.0-alpha.1
+[v4.4.4]: https://github.com/loewensteinph/fthelper/compare/v4.4.3...v4.4.4
+[v4.4.3]: https://github.com/loewensteinph/fthelper/compare/v4.4.2...v4.4.3
+[v4.4.2]: https://github.com/loewensteinph/fthelper/compare/v4.4.1...v4.4.2
+[v4.4.1]: https://github.com/loewensteinph/fthelper/compare/v4.4.0...v4.4.1
+[v4.4.0]: https://github.com/loewensteinph/fthelper/compare/v4.3.0...v4.4.0
+[v4.3.0]: https://github.com/loewensteinph/fthelper/compare/v4.2.0...v4.3.0
+[v4.2.0]: https://github.com/loewensteinph/fthelper/compare/v4.2.0-beta.1...v4.2.0
+[v4.2.0-beta.1]: https://github.com/loewensteinph/fthelper/compare/v4.1.1...v4.2.0-beta.1
+[v4.1.1]: https://github.com/loewensteinph/fthelper/compare/v4.1.0...v4.1.1
+[v4.1.0]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.9...v4.1.0
+[v4.1.0-beta.9]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.8...v4.1.0-beta.9
+[v4.1.0-beta.8]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.7...v4.1.0-beta.8
+[v4.1.0-beta.7]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.6...v4.1.0-beta.7
+[v4.1.0-beta.6]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.5...v4.1.0-beta.6
+[v4.1.0-beta.5]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.4...v4.1.0-beta.5
+[v4.1.0-beta.4]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.3...v4.1.0-beta.4
+[v4.1.0-beta.3]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.2...v4.1.0-beta.3
+[v4.1.0-beta.2]: https://github.com/loewensteinph/fthelper/compare/v4.1.0-beta.1...v4.1.0-beta.2
+[v4.1.0-beta.1]: https://github.com/loewensteinph/fthelper/compare/v4.0.0...v4.1.0-beta.1
+[v4.0.0]: https://github.com/loewensteinph/fthelper/compare/v4.0.0-beta.4...v4.0.0
+[v4.0.0-beta.4]: https://github.com/loewensteinph/fthelper/compare/v4.0.0-beta.3...v4.0.0-beta.4
+[v4.0.0-beta.3]: https://github.com/loewensteinph/fthelper/compare/v4.0.0-beta.2...v4.0.0-beta.3
+[v4.0.0-beta.2]: https://github.com/loewensteinph/fthelper/compare/v4.0.0-beta.1...v4.0.0-beta.2
+[v4.0.0-beta.1]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.12...v4.0.0-beta.1
+[v0.1.0-beta.12]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.11...v0.1.0-beta.12
+[v0.1.0-beta.11]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.10...v0.1.0-beta.11
+[v0.1.0-beta.10]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.9...v0.1.0-beta.10
+[v0.1.0-beta.9]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.8...v0.1.0-beta.9
+[v0.1.0-beta.8]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.7...v0.1.0-beta.8
+[v0.1.0-beta.7]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.6...v0.1.0-beta.7
+[v0.1.0-beta.6]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.5...v0.1.0-beta.6
+[v0.1.0-beta.5]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.4...v0.1.0-beta.5
+[v0.1.0-beta.4]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.3...v0.1.0-beta.4
+[v0.1.0-beta.3]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.2...v0.1.0-beta.3
+[v0.1.0-beta.2]: https://github.com/loewensteinph/fthelper/compare/v0.1.0-beta.1...v0.1.0-beta.2

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
+	"github.com/loewensteinph/fthelper/metric/v4/src/connection"
+	"github.com/loewensteinph/fthelper/shared/commandline/commands"
 )
 
 type Route struct {

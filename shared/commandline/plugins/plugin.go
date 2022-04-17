@@ -1,12 +1,12 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/commandline/models"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/commandline/commands"
+	"github.com/loewensteinph/fthelper/shared/commandline/flags"
+	"github.com/loewensteinph/fthelper/shared/commandline/hooks"
+	"github.com/loewensteinph/fthelper/shared/commandline/models"
+	"github.com/loewensteinph/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/maps"
 )
 
 type PluginParameter struct {

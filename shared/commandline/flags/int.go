@@ -3,7 +3,7 @@ package flags
 import (
 	"flag"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/maps"
 )
 
 type Int struct {

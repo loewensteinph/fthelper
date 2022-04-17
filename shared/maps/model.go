@@ -1,7 +1,7 @@
 package maps
 
 import (
-	"github.com/kamontat/fthelper/shared/datatype"
+	"github.com/loewensteinph/fthelper/shared/datatype"
 )
 
 type Mapper map[string]interface{}

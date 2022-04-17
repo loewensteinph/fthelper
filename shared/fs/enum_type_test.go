@@ -3,8 +3,8 @@ package fs_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/loewensteinph/fthelper/shared/fs"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestEnumType(t *testing.T) {

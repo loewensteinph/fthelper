@@ -1,12 +1,12 @@
 package metrics
 
 import (
-	"github.com/kamontat/fthelper/metric/v4/src/collectors"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/metric/v4/src/constants"
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/loewensteinph/fthelper/metric/v4/src/collectors"
+	"github.com/loewensteinph/fthelper/metric/v4/src/connection"
+	"github.com/loewensteinph/fthelper/metric/v4/src/constants"
+	"github.com/loewensteinph/fthelper/shared/caches"
+	"github.com/loewensteinph/fthelper/shared/commandline/commands"
+	"github.com/loewensteinph/fthelper/shared/utils"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

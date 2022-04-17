@@ -1,7 +1,7 @@
-module github.com/kamontat/fthelper/generator/v4
+module github.com/loewensteinph/fthelper/generator/v4
 
 go 1.16
 
-replace github.com/kamontat/fthelper/shared v0.0.0 => ../shared
+replace github.com/loewensteinph/fthelper/shared v0.0.0 => ../shared
 
-require github.com/kamontat/fthelper/shared v0.0.0
+require github.com/loewensteinph/fthelper/shared v0.0.0

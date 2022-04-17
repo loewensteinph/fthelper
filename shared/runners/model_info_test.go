@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamontat/fthelper/shared/runners"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/loewensteinph/fthelper/shared/runners"
+	"github.com/loewensteinph/fthelper/shared/xtests"
 )
 
 func TestBasicInformation(t *testing.T) {

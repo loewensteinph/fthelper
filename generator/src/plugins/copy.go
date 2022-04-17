@@ -1,10 +1,10 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/generator/v4/src/clusters"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/loewensteinph/fthelper/generator/v4/src/clusters"
+	"github.com/loewensteinph/fthelper/shared/fs"
+	"github.com/loewensteinph/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/runners"
 )
 
 func Copy(data maps.Mapper, config maps.Mapper) *runners.Runner {

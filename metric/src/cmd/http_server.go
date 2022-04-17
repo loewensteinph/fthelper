@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kamontat/fthelper/metric/v4/src/collectors"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/metric/v4/src/metrics"
-	"github.com/kamontat/fthelper/metric/v4/src/routes"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
+	"github.com/loewensteinph/fthelper/metric/v4/src/collectors"
+	"github.com/loewensteinph/fthelper/metric/v4/src/connection"
+	"github.com/loewensteinph/fthelper/metric/v4/src/metrics"
+	"github.com/loewensteinph/fthelper/metric/v4/src/routes"
+	"github.com/loewensteinph/fthelper/shared/commandline/commands"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
@@ -23,7 +23,7 @@ func HttpServer(p *commands.ExecutorParameter, connectors []connection.Connector
 	collector.AddMetrics(metrics.InternalFT)
 
 	collector.AddMetrics(metrics.FTInternal)
-	collector.AddMetrics(metrics.FTStat)
+	//collector.AddMetrics(metrics.FTStat)
 	collector.AddMetrics(metrics.FTBalance)
 	collector.AddMetrics(metrics.FTTrade)
 	collector.AddMetrics(metrics.FTPair)

@@ -1,8 +1,8 @@
 package clusters
 
 import (
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/maps"
 )
 
 type ExecutorParameter struct {

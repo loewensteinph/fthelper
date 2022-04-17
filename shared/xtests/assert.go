@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/datatype"
+	"github.com/loewensteinph/fthelper/shared/datatype"
 )
 
 type Assertion struct {

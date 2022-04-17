@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/loewensteinph/fthelper/shared/caches"
+	"github.com/loewensteinph/fthelper/shared/loggers"
+	"github.com/loewensteinph/fthelper/shared/maps"
+	"github.com/loewensteinph/fthelper/shared/utils"
 )
 
 type Http struct {
@@ -42,10 +42,10 @@ func (c *Http) handleError(err error) error {
 	return nil
 }
 
-func (c *Http) Initial() error {
-	var target = make(maps.Mapper)
-	return c.handleError(c.GET("ping", &target))
-}
+//func (c *Http) Initial() error {
+//	var target = make(maps.Mapper)
+//	return c.handleError(c.GET("ping", &target))
+//}
 
 func (c *Http) Request(method, name string, body io.Reader) (*http.Request, error) {
 	if !c.Enabled {
